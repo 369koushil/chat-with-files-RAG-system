@@ -1,5 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import {
+  ClerkProvider,
+  SignInButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from '@clerk/nextjs'
 
 import "./globals.css";
 
@@ -24,9 +32,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-<<<<<<< HEAD
     <ClerkProvider>
-      <html lang="en"  className="dark h-full w-full overflow-hidden  ">
+      <html lang="en"  className="dark h-full w-full ">
         <body
           className={`${geistSans.variable} ${geistMono.variable}  antialiased h-full w-full m-0 p-0`}
         >
@@ -44,14 +51,5 @@ export default function RootLayout({
         </body>
       </html>
     </ClerkProvider>
-=======
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
->>>>>>> parent of 1934c92 (added clerk authentication basic layout setup)
   );
 }

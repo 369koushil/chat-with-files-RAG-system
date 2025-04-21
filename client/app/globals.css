@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-=======
-@import "tailwindcss";
->>>>>>> parent of 1934c92 (added clerk authentication basic layout setup)
 
 @layer base {
   :root {

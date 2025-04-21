@@ -12,12 +12,17 @@
   "license": "ISC",
   "dependencies": {
     "@langchain/community": "^0.3.41",
+    "@langchain/core": "^0.3.45",
+    "@langchain/google-genai": "^0.2.4",
+    "@langchain/nomic": "^0.1.0",
+    "@langchain/qdrant": "^0.1.2",
     "@langchain/textsplitters": "^0.1.0",
+    "@qdrant/js-client-rest": "^1.13.0",
     "bullmq": "^5.49.1",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "multer": "^1.4.5-lts.2",
     "nodemon": "^3.1.9",
-    "pdf-parse": "^1.1.1"
+    "qdrant-client": "^0.0.1"
   }
 }

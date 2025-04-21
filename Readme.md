@@ -13,7 +13,7 @@ A minimal Retrieval-Augmented Generation (RAG) system that allows users to chat 
 - Queue-based file processing using **BullMQ** (powered by **Valkey**).
 - Relevant document chunks are sent to **Gemini Pro** LLM for context-based answers.
 - Local development with Docker Compose for **QdrantDB** and **Valkey**.
-- The UI interface is minimal still need to improve
+- The UI is minimal still need to improve
 
 ---
 

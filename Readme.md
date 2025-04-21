@@ -12,8 +12,8 @@ A minimal Retrieval-Augmented Generation (RAG) system that allows users to chat 
 - Embeddings are stored and searched from **QdrantDB**.
 - Queue-based file processing using **BullMQ** (powered by **Valkey**).
 - Relevant document chunks are sent to **Gemini Pro** LLM for context-based answers.
-- Clean and minimal **Next.js** frontend interface.
 - Local development with Docker Compose for **QdrantDB** and **Valkey**.
+- The UI interface is minimal still need to improve
 
 ---
 
